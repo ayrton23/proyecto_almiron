@@ -1,0 +1,190 @@
+*{	margin: 0;
+
+	padding: 0;
+	
+}
+
+ .navbar-light .navbar-nav .nav-link {
+    color: #6C464F;
+}
+.violet{
+	color:#9FA4C4;
+}
+
+.teaGreen{
+	color:#C7F0BD;
+}
+
+.lightBlue{
+	color:#B3CDD1;
+}
+
+.blue{
+	color:#9FA4C4;
+}
+
+.pink{
+	color:#9E768F;
+}
+
+.vino{
+	color:#6C464F;
+}
+
+.grid{
+	display: grid;
+	grid-template-columns: 50% 45%;
+	grid-template-rows: 100% 100%;
+	grid-column-gap: 5%;
+}
+
+.aside{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+    background-color:#C7F0BD; 
+   
+
+}
+
+.main_parrafo--posicion{
+	display: grid;
+	grid-template-columns: 24% 49% 24%;
+	grid-template-rows: 49%;
+	grid-column-gap: 1%;
+	grid-row-gap: 1%;
+}
+
+section{
+
+}
+
+table{
+	 td{
+
+	text-align: left;
+	font-size: 16px;
+	font-family: 'MuseoModerno', cursive;
+	font-weight: 200;
+	word-spacing: 3px;
+	list-style-position: inside;
+	   }
+}
+
+table{
+	li{
+	text-align: left;
+	font-size: 18px;
+	font-family: 'MuseoModerno', cursive;
+	font-weight: 400;
+	word-spacing: 3px;
+	list-style-position: inside;
+	font-color: #6C464F;
+	
+		}
+}
+
+
+table{ 
+	li{
+	text-align: left;
+	font-size: 16px;
+	font-family: 'MuseoModerno', cursive;
+	font-weight: 400;
+	word-spacing: 3px;
+	list-style-position: inside;
+	color: #6C464F;
+	}
+}
+
+article{
+	text-align: left;
+}
+label{
+	color:#B3CDD1;
+	font-weight: 600;
+}
+
+input{
+	font-family: 'MuseoModerno', cursive;
+	font-weight: 200;
+}
+
+
+button input{ 
+	font-family: 'MuseoModerno', cursive;
+	font-weight: 500;
+ } 
+
+
+select{
+	font-family: 'MuseoModerno', cursive;
+	font-weight: 500;
+}
+
+textarea{
+	font-family: 'MuseoModerno', cursive;
+	font-weight: 400;
+}
+
+
+
+header{
+	width: 100%;
+	height: 15%;
+	font-family: 'MuseoModerno', cursive;
+	font-size: 20px;
+    font-weight: 900;
+    background-color: #C7F0BD;
+    
+}
+
+
+header{ 
+	div{
+	font-family: 'MuseoModerno', cursive;
+	font-size: 16px;
+    font-weight: 900;
+    background-color: #C7F0BD;
+
+    }
+}
+
+main{
+	font-family: 'MuseoModerno', cursive;
+	font-size: 15px;
+	font-weight: 700;
+	background-color: #C7F0BD;
+
+}
+
+
+footer{
+	font-family: 'MuseoModerno', cursive;
+	background-color: #C7F0BD;
+}
+	
+.foot {
+	display: grid;
+	grid-template-columns: 70% 30%;
+	grid-template-rows: 100% 100%; 
+}	
+	
+
+
+nav {
+	li {
+	display: inline;
+	position:sticky;
+	border-style: inset;
+	border-bottom:5px;
+	}
+}
+
+a{
+	text-decoration: none;
+}

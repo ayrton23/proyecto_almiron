@@ -1,0 +1,234 @@
+* {
+  margin: 0 ;
+  padding: 0; 
+}
+html{
+  height: 100%;
+  background-color: #D3D8D6;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #D4D7D7; }
+
+.violet {
+  color: #9FA4C4; }
+
+.teaGreen {
+  color: #D4D7D7; }
+
+.fontzize {
+  font-weight: 700;
+  font-size: 24px; 
+  text-align: center; }
+
+.blue {
+  color: #9FA4C4; }
+
+.pink {
+  color: #9E768F; }
+
+.vino {
+  color: #6C464F; }
+
+.grid {
+  display: grid;
+  grid-template-areas: 
+  "article "
+  "carrusel"
+  ;
+}
+@media (min-width :768px){
+.grid{
+display: grid;
+grid-template-areas: 
+"article carrusel";
+  }  
+}
+
+.article_tabla--grid{
+  display: grid;
+  grid-area: "article";
+}
+.aside {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: #8C3555;
+   }
+
+.grid2{
+   display: grid;
+  grid-area: "carrusel"
+}
+
+.{
+
+}
+.main_parrafo--grids{
+  display: grid;
+  grid-template-areas:
+  "article"
+  "section"
+  "aside" 
+  ;
+
+}
+
+@media (min-width: 768px) {
+  .main_parrafo--grids{
+    grid-template-columns: auto 640px auto;
+    grid-template-rows: auto 100%;
+    grid-template-areas: 
+    "article section aside"
+    
+   ;
+  }
+}
+
+.article{
+  grid-area: "article";
+
+}
+.section{ grid-area: "section";
+align-items: center;
+justify-content: center;
+
+}
+.aside_formulario--grid{ grid-area: "aside";
+grid-row: : : 3/-1;
+}
+
+table tr td {
+  text-align: left;
+  font-size: 16px;
+  font-family: 'MuseoModerno', cursive;
+  font-weight: 200;
+  word-spacing: 3px;
+  list-style-position: inside; }
+
+table tr td ol li {
+  text-align: left;
+  font-size: 20px;
+  font-family: 'MuseoModerno', cursive;
+  font-weight: 400;
+  word-spacing: 3px;
+  list-style-position: inside;
+  font-color: black; }
+
+table tr td ul li {
+  text-align: left;
+  font-size: 20px;
+  font-family: 'MuseoModerno', cursive;
+  font-weight: 400;
+  word-spacing: 3px;
+  list-style-position: inside;
+  color: black; }
+ table tr td{
+  text-align: left;
+  font-size: 20px;
+  font-family: 'MuseoModerno', cursive;
+  font-weight: 400;
+  word-spacing: 3px;
+  list-style-position: inside;
+  color: black;
+  }
+
+article {
+  text-align: left; }
+main article{
+  background-color: #BFB741;
+}
+main aside{
+  background-color: #A64B37;
+
+}
+
+label {
+  color: black ;
+  font-weight: 600; }
+
+input {
+  font-family: 'MuseoModerno', cursive;
+  font-weight: 200; }
+
+button input {
+  font-family: 'MuseoModerno', cursive;
+  font-weight: 500; }
+
+select {
+  font-family: 'MuseoModerno', cursive;
+  font-weight: 500; }
+
+textarea {
+  font-family: 'MuseoModerno', cursive;
+  font-weight: 400; }
+
+header {
+
+  width: 100%;
+  height: 15%;
+  font-family: 'MuseoModerno', cursive;
+  font-size: 20px;
+  font-weight: 900;
+  background-color: #D4D7D7; }
+
+header div {
+  d
+  font-family: 'MuseoModerno', cursive;
+  font-size: 16px;
+  font-weight: 900;
+  background-color: #9453A6; }
+
+main {
+  font-family: 'MuseoModerno', cursive;
+  font-size: 15px;
+  font-weight: 700;
+  background-color: #D3D8D6; }
+
+footer {
+  height:100%;
+  width: 100%;
+  font-family: 'MuseoModerno', cursive;
+  background-color: #8C3555; }
+
+.foot {
+  display: grid;
+  grid-template-rows: 25% auto;
+grid-template-areas: 
+"maps"
+"logos";
+}
+@media (min-width: 768px){
+.foot {
+  grid-template-areas: 
+  "logos maps";
+  grid-template-columns: 70% 30%;
+}
+.logos{ grid-area: 
+  "logos";
+
+}
+.maps{ grid-area: 
+  "maps";
+
+}
+nav ul li {
+  display: inline;
+  position: sticky;
+  border-style: inset;
+  border-color: #9FA4C4;
+   }
+
+a {
+  text-decoration: none; }
+
+  .googlemaps{
+    width: 100%;
+  }
+.mapa{
+  max-width: 100%;
+
+}
